@@ -54,14 +54,14 @@ def banner():
 	r'''
 
 ╭━╮╭━╮     ╭━━━╮
-┃┃WHITEHAT ┃╭━━╯
+┃┃╰╯┃┃     ┃╭━━╯
 ┃╭╮╭╮┣━━┳━━┫╰━━┳╮ ╭┳━━╮
-┃. BY XIMON┃╭━━┫┃ ┃┃┃━┫
-┃┃┃┃╭╮┃╰INTELEGEN CYBER COMMUNITY
+┃┃┃┃┃┃╭╮┃╭╮┃╭━━┫┃ ┃┃┃━┫
+┃┃┃┃┃┃╭╮┃╰╯┃╰━━┫╰━╯┃┃━┫
 ╰╯╰╯╰┻╯╰┫╭━┻━━━┻━╮╭┻━━╯
         ┃┃     ╭━╯┃
-        ╰╯     ╰. ╯ ''' + W)
-	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'Mr. X')
+        ╰╯     ╰━━╯ ''' + W)
+	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'Mr. Bee')
 	print(G + '[>]' + C + ' Version    : ' + W + version + '\n')
 
 def ver_check():
@@ -216,7 +216,7 @@ def main():
 					var_cores = value['cores']
 				except TypeError:
 					var_cores = 'Not Available'
-				var_ram = value['RAM']
+				var_ram = value['ram']
 				var_vendor = value['vendor']
 				var_render = value['render']
 				var_res = value['wd'] + 'x' + value['ht']
